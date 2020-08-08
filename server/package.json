@@ -1,0 +1,17 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/socket.io": "^2.1.10",
+    "ts-node-dev": "^1.0.0-pre.56",
+    "typescript": "^3.9.7"
+  },
+  "scripts": {
+    "start": "tsnd server.ts"
+  },
+  "dependencies": {
+    "socket.io": "^2.3.0"
+  }
+}
