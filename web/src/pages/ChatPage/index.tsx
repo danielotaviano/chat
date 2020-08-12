@@ -40,7 +40,7 @@ function ChatPage() {
   ]);
 
   useEffect(() => {
-    const io = socketIOClient("ws://chatappdanielo.herokuapp.com:3001");
+    const io = socketIOClient("ws://localhost:3001");
     io.on("connect", () => {
       io.emit("newUser", { name });
       io.on("newUsers", (data: []) => {
@@ -58,7 +58,7 @@ function ChatPage() {
   }, []);
 
   function sendSelfMessages(e: React.FormEvent) {
-    const io = socketIOClient("ws://chatappdanielo.herokuapp.com:3001");
+    const io = socketIOClient("ws://localhost:3001");
     e.preventDefault();
 
     inputMessage &&
