@@ -10,7 +10,7 @@ Aqui é onde é colocado o nome que o usuário deseja utilizar no Chat!
 
 ## Tela do Chat
 
-Aqui é onde é colocado o nome que o usuário deseja utilizar no Chat!
+Aqui é a tela do Chat!
 
 ![alt text](https://i.ibb.co/fHMrvR1/Screenshot-from-2020-08-11-23-47-11.png)
 
